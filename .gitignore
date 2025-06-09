@@ -1,0 +1,50 @@
+# OS-specific files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Build and output directories
+/[Bb]uild/
+/[Dd]ist/
+/[Bb]in/
+/[Oo]bj/
+
+# Unity-specific (if you use Unity)
+/[Ll]ibrary/
+/[Tt]emp/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.opendb
+
+# Unreal Engine-specific (if you use Unreal)
+/[Bb]inaries/
+/[Ii]ntermediate/
+/[Ss]aved/
+/[Pp]lugins/
+/[Cc]ontent/StarterContent/
+
+# Dependency directories
+/node_modules/
+/packages/
+
+# Game-specific assets to exclude (large binary files)
+# Add specific paths for large assets you don't want in git
+# *.fbx
+# *.wav
+# *.mp3
+
+# Credentials and sensitive information
+*.key
+*.pem
+*.env
+credentials.json 
